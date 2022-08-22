@@ -13,7 +13,7 @@
 
 .container > header {
     text-align: center;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
     padding: 50px;
 }
 
@@ -38,13 +38,19 @@
     padding: 20px;
     font-weight: bold;
     font-size: 20px;
+    min-height: 4em;
 }
 
 .choice:hover {
     cursor: pointer;
     background: gray;
 }
-
+.selected{
+    background-color: grey;
+}
+.selected:hover{
+    cursor: initial;
+}
 .question {
     min-height: 20px;
     width: 100%;
@@ -76,4 +82,9 @@ a {
 
 a:hover {
     background-color: grey;
+}
+.message{
+    text-align: center;
+    min-height: 1.71em;
+    margin-top: 1em;
 }
