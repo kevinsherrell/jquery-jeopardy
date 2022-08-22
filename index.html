@@ -12,58 +12,67 @@
 <div class="container">
     <header>
         <h1>Jeopardy!</h1>
-        <h3 data-score="0">Your Score: </h3>
+        <h3>Your Score: </h3>
+        <h3 id="score"></h3>
     </header>
     <div id="board">
-        <div id="column-1" class="column">
-            <div class="category"></div>
-            <div class="choice" data-value="100" data-question="" data-answer="">$100</div>
-            <div class="choice" data-value="200" data-question="" data-answer="">$200</div>
-            <div class="choice" data-value="300" data-question="" data-answer="">$300</div>
-            <div class="choice" data-value="400" data-question="" data-answer="">$400</div>
-            <div class="choice" data-value="500" data-question="" data-answer="">$500</div>
-        </div>
-        <div id="column-2" class="column">
-            <div class="category">
+        <!--        <div id="column-1" class="column">-->
+        <!--            <div class="category"></div>-->
+        <!--            <div class="choice" data-value="200" data-question="" data-answer="">$200</div>-->
+        <!--            <div class="choice" data-value="400" data-question="" data-answer="">$400</div>-->
+        <!--            <div class="choice" data-value="600" data-question="" data-answer="">$600</div>-->
+        <!--            <div class="choice" data-value="800" data-question="" data-answer="">$800</div>-->
+        <!--            <div class="choice" data-value="1000" data-question="" data-answer="">$10000</div>-->
+        <!--        </div>-->
+        <!--        <div id="column-2" class="column">-->
+        <!--            <div class="category">-->
 
-            </div>
-            <div class="choice" data-value="100" data-question="" data-answer="">$100</div>
-            <div class="choice" data-value="200" data-question="" data-answer="">$200</div>
-            <div class="choice" data-value="300" data-question="" data-answer="">$300</div>
-            <div class="choice" data-value="400" data-question="" data-answer="">$400</div>
-            <div class="choice" data-value="500" data-question="" data-answer="">$500</div>
-        </div>
-        <div id="column-3" class="column">
-            <div class="category">
+        <!--            </div>-->
+        <!--            <div class="choice" data-value="200" data-question="" data-answer="">$200</div>-->
+        <!--            <div class="choice" data-value="400" data-question="" data-answer="">$400</div>-->
+        <!--            <div class="choice" data-value="600" data-question="" data-answer="">$600</div>-->
+        <!--            <div class="choice" data-value="800" data-question="" data-answer="">$800</div>-->
+        <!--            <div class="choice" data-value="1000" data-question="" data-answer="">$10000</div>-->
+        <!--        </div>-->
+        <!--        <div id="column-3" class="column">-->
+        <!--            <div class="category">-->
 
-            </div>
-            <div class="choice" data-value="100" data-question="" data-answer="">$100</div>
-            <div class="choice" data-value="200" data-question="" data-answer="">$200</div>
-            <div class="choice" data-value="300" data-question="" data-answer="">$300</div>
-            <div class="choice" data-value="400" data-question="" data-answer="">$400</div>
-            <div class="choice" data-value="500" data-question="" data-answer="">$500</div>
-        </div>
-        <div id="column-4" class="column">
-            <div class="category">
+        <!--            </div>-->
+        <!--            <div class="choice" data-value="200" data-question="" data-answer="">$200</div>-->
+        <!--            <div class="choice" data-value="400" data-question="" data-answer="">$400</div>-->
+        <!--            <div class="choice" data-value="600" data-question="" data-answer="">$600</div>-->
+        <!--            <div class="choice" data-value="800" data-question="" data-answer="">$800</div>-->
+        <!--            <div class="choice" data-value="1000" data-question="" data-answer="">$10000</div>-->
+        <!--        </div>-->
+        <!--        <div id="column-4" class="column">-->
+        <!--            <div class="category">-->
 
-            </div>
-            <div class="choice" data-value="100" data-question="" data-answer="">$100</div>
-            <div class="choice" data-value="200" data-question="" data-answer="">$200</div>
-            <div class="choice" data-value="300" data-question="" data-answer="">$300</div>
-            <div class="choice" data-value="400" data-question="" data-answer="">$400</div>
-            <div class="choice" data-value="500" data-question="" data-answer="">$500</div>
-        </div>
-        <div id="column-5" class="column">
-            <div class="category">
+        <!--            </div>-->
+        <!--            <div class="choice" data-value="200" data-question="" data-answer="">$200</div>-->
+        <!--            <div class="choice" data-value="400" data-question="" data-answer="">$400</div>-->
+        <!--            <div class="choice" data-value="600" data-question="" data-answer="">$600</div>-->
+        <!--            <div class="choice" data-value="800" data-question="" data-answer="">$800</div>-->
+        <!--            <div class="choice" data-value="1000" data-question="" data-answer="">$10000</div>-->
+        <!--        </div>-->
+        <!--        <div id="column-5" class="column">-->
+        <!--            <div class="category">-->
 
-            </div>
-            <div class="choice" data-value="100" data-question="" data-answer="">$100</div>
-            <div class="choice" data-value="200" data-question="" data-answer="">$200</div>
-            <div class="choice" data-value="300" data-question="" data-answer="">$300</div>
-            <div class="choice" data-value="400" data-question="" data-answer="">$400</div>
-            <div class="choice" data-value="500" data-question="" data-answer="">$500</div>
-        </div>
+        <!--            </div>-->
+        <!--            <div class="choice" data-value="200" data-question="" data-answer="">$200</div>-->
+        <!--            <div class="choice" data-value="400" data-question="" data-answer="">$400</div>-->
+        <!--            <div class="choice" data-value="600" data-question="" data-answer="">$600</div>-->
+        <!--            <div class="choice" data-value="800" data-question="" data-answer="">$800</div>-->
+        <!--            <div class="choice" data-value="1000" data-question="" data-answer="">$10000</div>-->
+        <!--        </div>-->
     </div>
+    <div class="question"></div>
+    <section id="input-section">
+        <input id="input" type="text"><a href="#">Submit</a>
+    </section>
+
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./main.js"></script>
 </body>
 </html>

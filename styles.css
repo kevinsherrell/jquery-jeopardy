@@ -30,7 +30,8 @@
     flex-basis: 20%;
     text-align: center;
 }
-.choice{
+
+.choice {
     border: 3px solid black;
     background: navy;
     color: yellow;
@@ -38,7 +39,41 @@
     font-weight: bold;
     font-size: 20px;
 }
-.choice:hover{
+
+.choice:hover {
     cursor: pointer;
     background: gray;
+}
+
+.question {
+    min-height: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+
+#input-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 15em;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+a {
+    font-weight: bold;
+    background-color: navy;
+    color: yellow;
+    padding: 5px;
+    border-radius: 15px;
+    width: 5em;
+    text-align: center;
+}
+
+a:hover {
+    background-color: grey;
 }
